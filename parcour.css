@@ -1,0 +1,78 @@
+/* Conteneur principal */
+.parcour {
+    background: linear-gradient(to bottom, #e0ecf1, #f4f9fb);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+.cursus-scolaire {
+    background: linear-gradient(to bottom, #e0ecf1, #f4f9fb);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.cursus-scolaire h2 {
+    font-size: 1.8rem;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.cursus-scolaire h2::after {
+    content: '🏫';
+    margin-left: 5px;
+}
+
+.timeline {
+    border-left: 2px solid red;
+    position: relative;
+    padding-left: 20px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -9px;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+}
+
+.timeline-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.timeline-date {
+    display: inline-block;
+    background: #6c757d;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.timeline-description {
+    font-style: italic;
+    color: #555;
+}
+
+.timeline-location {
+    color: #333;
+    font-size: 0.9rem;
+}
